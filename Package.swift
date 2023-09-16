@@ -28,7 +28,8 @@ let package = Package(
     )
   ],
   targets: [
-    .target(name: "MaterialColorUtilities"),
+    .target(name: "MaterialColorUtilities",
+		    path: "swift/Sources/MaterialColorUtilities"),
     .testTarget(
       name: "MaterialColorUtilitiesTests",
       dependencies: ["MaterialColorUtilities"]
